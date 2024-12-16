@@ -205,3 +205,33 @@ else {
 // $array = ["Ciao", "come", "va?"];
 // $stringa = implode(" ", $array);
 // echo $stringa . "\n"; // Risultato: "Ciao come va?"
+
+//===================================================
+// Strutture di controllo - SWITCH (slide 49)
+//===================================================
+
+// function salutaPrint ($nome) {
+//     echo "Ciao, $nome! \n";
+// }
+
+// salutaPrint("Giovanni");
+
+//===================================================
+
+// function salutaReturn ($nome) {
+//     return "Ciao, $nome! \n";
+// }
+
+// $saluto = salutaReturn("Giovanni");
+// echo $saluto;
+
+//===================================================
+
+// $saluto_global = "Buongiorno";
+
+// function salutaGlobal ($nome) {
+//     global $saluto_global;
+//     echo "$saluto_global, $nome! \n";
+// }
+
+// salutaGlobal("Giovanni");
