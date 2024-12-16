@@ -6,8 +6,45 @@
     <title>Forms</title>
 </head>
 <body>
-    
-Hello world!
+
+
+<h2>Esempio richiesta GET</h2>
+
+<form action="server/server.php" method="GET">
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required>
+    <br><br>
+    <label for="password">Confirm Password:</label>
+    <input type="password" name="confirm_password" id="confirm_password" required>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+
+<h2>Esempio richiesta POST</h2>
+
+<form action="server/server.php" method="POST">
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required>
+    <br><br>
+    <label for="password">Confirm Password:</label>
+    <input type="password" name="confirm_password" id="confirm_password" required>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
 
 </body>
 </html>

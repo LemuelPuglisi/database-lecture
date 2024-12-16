@@ -7,3 +7,5 @@ cd forms; docker-compose up
 ```
 
 Enjoy the lecture.
+
+> Useful resources: [freeCodeCamp - what is HTTP](https://www.freecodecamp.org/news/what-is-http/)
