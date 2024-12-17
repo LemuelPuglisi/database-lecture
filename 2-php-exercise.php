@@ -10,8 +10,8 @@ che la risposta deve iniziare e terminare con i tag del codice PHP.
 */
 
 function contaVocali($str) {
-    // ...
+    // ...    
 }
 
 // test
-echo contaVocali('Ciao Mondo'); // 4
+echo contaVocali('Ciao Mondo'); // 5
